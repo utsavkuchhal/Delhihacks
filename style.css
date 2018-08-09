@@ -1,0 +1,136 @@
+/* #region Navbar&Landing */
+
+.n-logo {
+      height: 300px;
+      max-width: 300px !important;
+      width: 300px;
+}
+
+.page-header {
+      background : linear-gradient(0deg,rgba(232, 231, 235, 0.315),rgba(134, 50, 2, 0.815))
+}
+
+.content-center .h1-seo {
+      font-weight: 500;
+      text-shadow: 1px 3px 5px rgba(255, 255, 255, 0.77);
+}
+
+.content-center h3 {
+      text-shadow: 1px 3px 5px rgba(255, 255, 255, 0.77);
+}
+
+.sidebar-collapse [class*="navbar-expand-"] .navbar-collapse {
+      width: 150px;
+      background: rgb(117, 107, 107);
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) {
+      top: 12px;
+}
+
+.bg-primary, .sidebar-collapse .navbar-collapse::before {
+      background: #000 !important;
+}
+
+.nav-open .sidebar-collapse [class*="navbar-expand-"] .navbar-translate {
+      transform: translate3d(-150px,0,0);
+}
+
+/* #endregion Navbar&Landing */
+
+/* #region Footer */
+
+.footer-subjects {
+      position: relative;
+      margin: 0 auto;
+}
+
+.footer-subjects div {
+      position: relative;
+      margin: 0 auto;   
+}
+
+.footer .footer-list li {
+      display: block;
+      line-height: 3.2;
+}
+
+.footer .footer-list li:hover {
+      cursor: pointer;
+      text-decoration: underline;
+}
+
+.footer-divider {
+      border-top: 1px solid #8c8b8b;
+      margin-top: 40px;
+}
+
+.social-media-bar {
+      text-align: left !important;
+      padding-left: 0;
+      margin-left: 0;
+}
+
+.social-media-bar a {   
+      margin-left: 15px;
+}
+
+.social-media-bar .copyright{
+      margin-top: 30px;
+}
+
+/* #endregion Footer */
+
+
+
+/* lg-breakpoint */
+@media screen and (max-width: 992px){
+      .social-media-bar {
+            text-align: center !important;
+      }
+      .social-media-bar .copyright {
+            margin-top: 15px;
+            text-align: center;
+      }
+
+      .footer-heading {
+            font-size: 20px;
+      }
+}
+
+/* m-breakpoint */
+@media screen and (max-width: 768px){
+      .social-media-bar .copyright {
+            margin-top: 15px;
+            text-align: center;
+      }
+
+      .footer-subjects {
+            position: relative;
+            margin: 0 auto;
+      }
+
+      .footer .footer-list, .footer-heading {
+            text-align: center;
+      }
+
+      .footer-heading {
+            font-size: 25px;
+            margin-top: 55px;
+      }
+
+      #first-footer-heading{
+            margin-top: 25px;
+      }
+
+      .footer .footer-list li {
+            line-height: 2.3;
+      }
+}
+
+
+@media screen and (max-width: 385px){
+      .footer-divider {
+            margin-top: 55px;
+      }
+}
