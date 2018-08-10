@@ -82,6 +82,18 @@
 /* #endregion Footer */
 
 
+/* xl-breakpoing */
+@media screen and (max-width: 1200px){
+      footer .footer-list li {
+            font-size: 14px;
+            font-weight: 300;
+      }
+
+      .footer-heading {
+            font-size: 18px;
+            font-weight: 500;
+      }
+}
 
 /* lg-breakpoint */
 @media screen and (max-width: 992px){
@@ -139,7 +151,6 @@
             line-height: 2.3;
       }
 }
-
 
 @media screen and (max-width: 385px){
       .footer-divider {
