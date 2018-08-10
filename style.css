@@ -89,12 +89,18 @@
             text-align: center !important;
       }
       .social-media-bar .copyright {
-            margin-top: 15px;
+            margin-top: 12px;
             text-align: center;
       }
 
+      footer .footer-list li {
+            font-size: 10px;
+            text-align: left;
+            font-weight: 300;
+      }
+
       .footer-heading {
-            font-size: 20px;
+            font-size: 15px;
       }
 }
 
@@ -103,6 +109,12 @@
       .social-media-bar .copyright {
             margin-top: 15px;
             text-align: center;
+      }
+
+      footer .footer-list li {
+            font-size: 16px;
+            text-align: center;
+            font-weight: 300;
       }
 
       .footer-subjects {
