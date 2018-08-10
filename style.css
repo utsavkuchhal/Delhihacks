@@ -81,15 +81,77 @@
 
 /* #endregion Footer */
 
+/* #region PreOrder */
+
+#pre-order-section {
+      background: rgb(86, 86, 90);
+}
+
+#pre-order-section h1 {
+      color: rgb(216, 216, 216);
+}
+
+.card {
+      border-radius: 0.2rem;
+      transition: all 0.2s;
+      box-shadow: 0 5px 25px 0 rgba(0,0,0,.4)
+}
+
+.pricing hr {
+      margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+      letter-spacing: .1rem;
+      font-weight: bold;
+}
+
+.pricing .card-price {
+      font-size: 3rem;
+      margin: 0;
+}
+
+.pricing ul li {
+      margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+      opacity: 0.7;
+}
+
+.pricing .btn {
+      letter-spacing: .1rem;
+      font-weight: bold;
+      padding: 1rem;
+}
+
+
+@media (min-width: 992px) {
+      .pricing .card:hover {
+            margin-top: -.25rem;
+            margin-bottom: .25rem;
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+      }
+      .pricing .card:hover .btn {
+            opacity: 1;
+      }
+}
+
+/* #endregion PreOrder */
+
 
 /* #region MailChimp */
 
-#mc_embed_signup {
-      background: #fff;
-      clear: left;
-      font: 14px Helvetica, Arial, sans-serif;
-      width: 100%;
-  }
+#mailchimp-section {
+      background-color: #ECF0F1;
+}
+
+#mailchimp-section input {
+      font-size: 18px;
+      box-shadow: 0 5px 18px 0 rgba(0,0,0,.2)
+}
 
 /* #endregion MailChimp */
 
