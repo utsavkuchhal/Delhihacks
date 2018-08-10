@@ -82,6 +82,17 @@
 /* #endregion Footer */
 
 
+/* #region MailChimp */
+
+#mc_embed_signup {
+      background: #fff;
+      clear: left;
+      font: 14px Helvetica, Arial, sans-serif;
+      width: 100%;
+  }
+
+/* #endregion MailChimp */
+
 /* xl-breakpoing */
 @media screen and (max-width: 1200px){
       footer .footer-list li {
