@@ -162,12 +162,23 @@
 /* #region MailChimp */
 
 #mailchimp-section {
-      background-color: #ECF0F1;
+      background: radial-gradient(ellipse at top left, #20333A 0%,#356277 57%); 
 }
 
 #mailchimp-section input {
       font-size: 18px;
       box-shadow: 0 5px 18px 0 rgba(0,0,0,.2)
+}
+
+#mailchimp-section h1 {
+      color: #E0E1E2;
+      text-shadow: 1px 2px 1px rgba(150, 150, 150, 0.64);
+}
+
+#mailchimp-section p {
+      color: #E0E1E2;
+      font-weight: 300;
+      text-shadow: 1px 2px 1px rgba(150, 150, 150, 0.64);
 }
 
 /* #endregion MailChimp */
