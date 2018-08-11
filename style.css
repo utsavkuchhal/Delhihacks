@@ -84,15 +84,12 @@
 /* #region PreOrder */
 
 #pre-order-section {
+      /* Use of image permitted by CC0 Creative Commons : https://free-images.com/display/training_barbell_muscles_hands.html --> */
       background-image: linear-gradient(0deg,rgba(232, 231, 235, 0.315),rgba(27, 13, 5, 0.815)), url(img/PricingBackground.jpg);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-}
-
-#pre-order-section::before  {
-      background: l;
 }
 
 #pre-order-section h1 {
