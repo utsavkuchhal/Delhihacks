@@ -7,7 +7,12 @@
 }
 
 .page-header {
-      background : linear-gradient(0deg,rgba(232, 231, 235, 0.315),rgba(134, 50, 2, 0.815))
+      /* Use of image permitted by CC0 Creative Commons : https://wallpapersfit.com/gym-wallpaper.html/gym-wallpaper-hdq-cover-1wc2003812?lang=nl */
+      background-image: linear-gradient(0deg,rgba(232, 231, 235, 0.315),rgba(134, 50, 2, 0.815)), url(/img/LandingBackground.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
 
 .content-center .h1-seo {
@@ -110,12 +115,13 @@
       margin: 0.5rem 0;
       font-size: 1.2rem;
       letter-spacing: .1rem;
-      font-weight: bold;
+      font-weight: 700;
 }
 
 .pricing .card-price {
-      font-size: 3rem;
+      font-size: 2.2rem;
       margin: 0;
+      font-weight: 600;
 }
 
 .pricing ul li {
