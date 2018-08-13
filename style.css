@@ -1,9 +1,5 @@
-/* #region Navbar&Landing */
-
 .n-logo {
-      height: 300px;
       max-width: 300px !important;
-      width: 300px;
 }
 
 .page-header {
@@ -29,10 +25,6 @@
       background: rgb(117, 107, 107);
 }
 
-.navbar .navbar-nav .nav-link:not(.btn) {
-      top: 12px;
-}
-
 .bg-primary, .sidebar-collapse .navbar-collapse::before {
       background: #000 !important;
 }
@@ -40,10 +32,6 @@
 .nav-open .sidebar-collapse [class*="navbar-expand-"] .navbar-translate {
       transform: translate3d(-150px,0,0);
 }
-
-/* #endregion Navbar&Landing */
-
-/* #region ProductPreview */
 
 #product-preview-section {
       background: radial-gradient(ellipse at top left, #20333A 0%,#356277 57%); 
@@ -53,10 +41,6 @@
 #product-preview-section .card {
       background: none;
       box-shadow: none;
-}
-
-#product-preview-section .card:hover {
-      background: rgba(48, 16, 90, 0.247);
 }
 
 #product-preview-section .card-price {
@@ -69,12 +53,9 @@
       font-weight: 400;
 }
 
-/* #endregion ProductPreview */
-
-/* #region Reviews */
-
 .arrows-1_minimal-left, .arrows-1_minimal-right {
       color: black;
+      font-size: 24px;
 }
 
 .carousel-item {
@@ -84,13 +65,9 @@
 
 .review-image {
       object-fit: contain;
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
 }
-
-/* #endregion Reviews */
-
-/* #region PreOrder */
 
 #pre-order-section {
       /* Use of image permitted by CC0 Creative Commons : https://free-images.com/display/training_barbell_muscles_hands.html --> */
@@ -105,53 +82,38 @@
       color: rgb(216, 216, 216);
 }
 
-.card {
+#pre-order-section .card {
       border-radius: 0.2rem;
       transition: all 0.2s;
       box-shadow: 0 5px 25px 0 rgba(0,0,0,.4)
 }
 
-.pricing hr {
-      margin: 1.5rem 0;
+#pre-order-section .card:hover {
+      transform: scale(1.05);
 }
 
-.pricing .card-title {
-      margin: 0.5rem 0;
+#pre-order-section .pricing .card-title {
       font-size: 1.2rem;
       letter-spacing: .1rem;
       font-weight: 700;
-}
+}     
 
-.pricing .card-price {
-      font-size: 2.2rem;
-      margin: 0;
+#pre-order-section .pricing .card-price {
+      font-size: 2rem;
       font-weight: 600;
 }
 
-.pricing ul li {
+#pre-order-section .pricing ul li {
       margin-bottom: 1rem;
-}
+}     
 
-.pricing .text-muted {
-      opacity: 0.7;
-}
-
-.pricing .card-body .btn {
+#pre-order-section .pricing .card-body .btn {
       letter-spacing: .1rem;
       font-weight: bold;
       padding: 1rem;
-      color: rgb(247, 241, 241);
-      box-shadow: 0 5px 18px 0 rgba(0,0,0,.1)
+      color: #fff;
+      box-shadow: 0 5px 18px 0 rgba(0,0,0,.2)
 }
-
-.pricing .card-body .btn:hover {
-      color: rgb(255, 255, 255);
-}
-
-
-/* #endregion PreOrder */
-
-/* #region MailChimp */
 
 #mailchimp-section {
       background: radial-gradient(ellipse at top left, #20333A 0%,#356277 57%); 
@@ -173,16 +135,12 @@
       text-shadow: 1px 2px 1px rgba(150, 150, 150, 0.64);
 }
 
-/* #endregion MailChimp */
-
-/* #region Footer */
-
 .footer {
       background-color: rgb(34, 34, 34);
 }
 
 .footer-heading, .footer-list li, .copyright {
-      color: #E0E1E2;
+      color: rgba(255, 255, 255, 0.811);
 }
 
 .footer-subjects {
@@ -197,7 +155,9 @@
 
 .footer .footer-list li {
       display: block;
-      line-height: 3.2;
+      line-height: 2.7;
+      font-size: 14px;
+      font-weight: 300;
 }
 
 .footer .footer-list li:hover {
@@ -206,29 +166,14 @@
 }
 
 .footer-divider {
-      border-top: 1px solid #8c8b8b;
+      border-top: 1px solid #8c8b8b4d;
       margin-top: 40px;
 }
 
 .social-media-bar {
       text-align: left !important;
-      padding-left: 0;
-      margin-left: 0;
 }
 
-.social-media-bar a {   
-      margin-left: 15px;
-}
-
-.social-media-bar .copyright{
-      margin-top: 30px;
-}
-
-/* #endregion Footer */
-
-/* #region MediaQueries */
-
-/* xl-breakpoing */
 @media screen and (max-width: 1200px){
       footer .footer-list li {
             font-size: 14px;
@@ -246,17 +191,17 @@
       }
 }
 
-/* lg-breakpoint */
 @media screen and (max-width: 992px){
       .social-media-bar {
             text-align: center !important;
       }
+
       .social-media-bar .copyright {
             margin-top: 12px;
             text-align: center;
       }
 
-      footer .footer-list li {
+      .footer .footer-list li {
             font-size: 10px;
             text-align: left;
             font-weight: 300;
@@ -281,7 +226,6 @@
       }
 }
 
-/* md-breakpoint */
 @media screen and (max-width: 768px){
       .carousel-item {
             min-width: 540px;
@@ -293,7 +237,7 @@
             text-align: center;
       }
 
-      footer .footer-list li {
+      .footer .footer-list li {
             font-size: 16px;
             text-align: center;
             font-weight: 300;
@@ -322,7 +266,6 @@
       }
 }
 
-/* sm-breakpoint */
 @media screen and (max-width: 576px){
       #mailchimp-section h1 {
             font-size: 24px;
@@ -367,14 +310,8 @@
       }
 }
 
-/* xs-breakpoint */
 @media screen and (max-width: 385px){
       .footer-divider {
             margin-top: 55px;
       }
 }
-
-/* #endregion MediaQueries */
-
-
-
