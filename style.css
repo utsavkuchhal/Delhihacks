@@ -51,22 +51,46 @@
 }
 
 #product-preview-section .card {
-      background: transparent;
+      background: none;
       box-shadow: none;
+      margin-left: 40px;
+}
+
+#product-preview-section .card:hover {
+      background: rgba(48, 16, 90, 0.247);
 }
 
 #product-preview-section .card-price {
       font-size: 24px;
-      font-weight: 500;
+      font-weight: 600;
 }
 
 #product-preview-section p {
       font-size: 16px;
+      font-weight: 400;
 }
 
 
 /* #endregion ProductPreview */
 
+/* #region Reviews */
+
+.arrows-1_minimal-left, .arrows-1_minimal-right {
+      color: black;
+}
+
+.carousel-item {
+      min-width: 1140px;
+      min-height: 540px;
+}
+
+.review-image {
+      object-fit: contain;
+      width: 200px;
+      height: 200px;
+}
+
+/* #endregion Reviews */
 
 /* #region PreOrder */
 
@@ -228,6 +252,11 @@
             font-size: 18px;
             font-weight: 500;
       }
+
+      .carousel-item {
+            min-width: 960px;
+            min-height: 540px;
+      }
 }
 
 /* lg-breakpoint */
@@ -249,10 +278,20 @@
       .footer-heading {
             font-size: 15px;
       }
+
+      .carousel-item {
+            min-width: 720px;
+            min-height: 580px;
+      }
 }
 
 /* md-breakpoint */
 @media screen and (max-width: 768px){
+      .carousel-item {
+            min-width: 540px;
+            min-height: 620px;
+      }
+
       .social-media-bar .copyright {
             margin-top: 15px;
             text-align: center;
@@ -297,6 +336,34 @@
             font-size: 14px;
             color: rgb(236, 238, 240);
       }
+
+      .review-container {
+            margin: 0 auto;
+      }
+
+      .carousel-item {
+            max-width: 320px;
+            max-height: 540px;
+            min-width: 320px;
+            min-height: 540px;
+      }
+
+      .img-raised {
+            margin: 0 auto;
+            text-align: center;
+      }
+
+      .review-text {
+            font-size: 14px;
+      }
+
+      .review-name {
+            font-size: 18px;
+      }
+
+      .review-rating {
+            font-size: 14px;
+      }
 }
 
 /* xs-breakpoint */
@@ -307,3 +374,6 @@
 }
 
 /* #endregion MediaQueries */
+
+
+
