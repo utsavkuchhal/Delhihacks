@@ -43,56 +43,30 @@
 
 /* #endregion Navbar&Landing */
 
-/* #region Footer */
+/* #region ProductPreview */
 
-.footer {
-      background-color: rgb(34, 34, 34);
+#product-preview-section {
+      background: radial-gradient(ellipse at top left, #20333A 0%,#356277 57%); 
+      color: white;
 }
 
-.footer-heading, .footer-list li, .copyright {
-      color: #E0E1E2;
+#product-preview-section .card {
+      background: transparent;
+      box-shadow: none;
 }
 
-.footer-subjects {
-      position: relative;
-      margin: 0 auto;
+#product-preview-section .card-price {
+      font-size: 24px;
+      font-weight: 500;
 }
 
-.footer-subjects div {
-      position: relative;
-      margin: 0 auto;   
+#product-preview-section p {
+      font-size: 16px;
 }
 
-.footer .footer-list li {
-      display: block;
-      line-height: 3.2;
-}
 
-.footer .footer-list li:hover {
-      cursor: pointer;
-      text-decoration: underline;
-}
+/* #endregion ProductPreview */
 
-.footer-divider {
-      border-top: 1px solid #8c8b8b;
-      margin-top: 40px;
-}
-
-.social-media-bar {
-      text-align: left !important;
-      padding-left: 0;
-      margin-left: 0;
-}
-
-.social-media-bar a {   
-      margin-left: 15px;
-}
-
-.social-media-bar .copyright{
-      margin-top: 30px;
-}
-
-/* #endregion Footer */
 
 /* #region PreOrder */
 
@@ -189,6 +163,57 @@
 }
 
 /* #endregion MailChimp */
+
+/* #region Footer */
+
+.footer {
+      background-color: rgb(34, 34, 34);
+}
+
+.footer-heading, .footer-list li, .copyright {
+      color: #E0E1E2;
+}
+
+.footer-subjects {
+      position: relative;
+      margin: 0 auto;
+}
+
+.footer-subjects div {
+      position: relative;
+      margin: 0 auto;   
+}
+
+.footer .footer-list li {
+      display: block;
+      line-height: 3.2;
+}
+
+.footer .footer-list li:hover {
+      cursor: pointer;
+      text-decoration: underline;
+}
+
+.footer-divider {
+      border-top: 1px solid #8c8b8b;
+      margin-top: 40px;
+}
+
+.social-media-bar {
+      text-align: left !important;
+      padding-left: 0;
+      margin-left: 0;
+}
+
+.social-media-bar a {   
+      margin-left: 15px;
+}
+
+.social-media-bar .copyright{
+      margin-top: 30px;
+}
+
+/* #endregion Footer */
 
 /* #region MediaQueries */
 
