@@ -70,7 +70,6 @@
       font-weight: 400;
 }
 
-
 /* #endregion ProductPreview */
 
 /* #region Reviews */
@@ -150,17 +149,6 @@
       color: rgb(255, 255, 255);
 }
 
-
-@media (min-width: 992px) {
-      .pricing .card:hover {
-            margin-top: -.25rem;
-            margin-bottom: .25rem;
-            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-      }
-      .pricing .card:hover .btn {
-            opacity: 1;
-      }
-}
 
 /* #endregion PreOrder */
 
@@ -283,6 +271,15 @@
             min-width: 720px;
             min-height: 580px;
       }
+
+      .pricing .card:hover {
+            margin-top: -.25rem;
+            margin-bottom: .25rem;
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+      }
+      .pricing .card:hover .btn {
+            opacity: 1;
+      }
 }
 
 /* md-breakpoint */
@@ -363,6 +360,11 @@
 
       .review-rating {
             font-size: 14px;
+      }
+
+      .product-review-container .card {
+            min-width: 0;
+            width: auto;
       }
 }
 
