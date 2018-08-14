@@ -354,6 +354,10 @@
 
 @media screen and (max-width: 576px){
 
+      #app-section img {
+            max-height: 300px;
+      }
+
       #app-section .container{
             margin: 0 auto;
       }
@@ -380,7 +384,7 @@
       }
 
       #app-section .carousel-inner{
-            padding-bottom: 400px;
+            padding-bottom: 250px;
       }
 
       #mailchimp-section h1 {
