@@ -6,16 +6,14 @@ $(document).ready(() => {
       $("#pre-order-section").load("partial_views/preorderPartial.html");
       $("#mailchimp-section").load("partial_views/mailchimpPartial.html");
       $("#footer-section").load("partial_views/footerPartial.html");
+});
 
-      let scroll_pos = 0;
-      $(document).scroll(() => {
-            scroll_pos = $(this).scrollTop();
-            if (scroll_pos > 600) {
-                  $(".navbar-transparent").css('background-color', 'black');
-            } else {
-                  $(".navbar-transparent").css('background-color', 'transparent');
-            }
-      });
+$(window).scroll(() => { 
+      if ($(document).scrollTop() > 800) {   
+            document.getElementById("navbar").setAttribute('style', 'background-color: black !important');
+      } else {
+            document.getElementById("navbar").setAttribute('style', 'background-color: transparent !important');
+      }
 });
 
 function goBack(){

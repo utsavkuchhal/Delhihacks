@@ -64,11 +64,29 @@
 }
 
 #product-preview-section {
-      background: rgb(44, 29, 29);
+      background: rgb(117, 110, 65);
       color: white;
+      min-height: 670px;
+      box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75) inset;
+      border-top: 6px solid transparent;
+      border-image: linear-gradient(to bottom, rgba(78, 77, 77, 0.349) , rgba(92, 92, 45, 0.205));
+      border-image-slice: 1;
+}
+
+#product-preview-section button {
+      margin-top: 35px;
+      color: #ffffff; 
+      background-color: #38171F; 
+      border-color: #DDDCE3; 
+}
+
+#product-preview-section .partial-text {
+      margin-top: 20px;
+      font-size: 14px;
 }
 
 #product-preview-section .card {
+      margin-top: 50px;
       background: none;
       box-shadow: none;
 }
@@ -81,6 +99,14 @@
 #product-preview-section p {
       font-size: 16px;
       font-weight: 400;
+}
+
+#product-preview-section img {
+      width: 350px;
+      height: 260px;
+      margin-top: 25px;
+      box-shadow: 0px 0px 8px 1px rgba(90, 48, 32, 0.364);
+      border: 4px solid rgba(75, 72, 72, 0.219);
 }
 
 #review-section  {
