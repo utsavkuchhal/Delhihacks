@@ -2,11 +2,9 @@
       max-width: 300px !important;
 }
 
-
-
 .page-header {
       /* Use of image permitted by CC0 Creative Commons : https://wallpapersfit.com/gym-wallpaper.html/gym-wallpaper-hdq-cover-1wc2003812?lang=nl */
-      background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.981),rgba(48, 48, 47, 0.815)), url(img/LandingBackground.jpg);
+      background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.981),rgba(48, 48, 47, 0.815)), url(../../src/img/LandingBackground.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -129,9 +127,8 @@
 }
 
 #pre-order-section {
-      
       /* Use of image permitted by CC0 Creative Commons : https://free-images.com/display/training_barbell_muscles_hands.html --> */
-      background-image: linear-gradient(0deg,rgba(48, 48, 47, 0.815),rgba(0, 0, 0, 0.981)), url(img/PricingBackground.jpg);
+      background-image: linear-gradient(0deg,rgba(48, 48, 47, 0.815),rgba(0, 0, 0, 0.981)), url(../../src/img/PricingBackground.jpg);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -176,7 +173,7 @@
 }
 
 #mailchimp-section {
-      background: url(/img/Subscribe.png);
+      background: url(../../src/img/Subscribe.png);
       background-repeat: no-repeat;
       background-size: cover;
 }
