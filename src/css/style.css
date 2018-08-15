@@ -124,8 +124,8 @@
 }
 
 #review-section .carousel-inner{
-      background: rgba(223, 223, 223, 0.700);
-      color: rgb(0, 0, 0);
+      background: rgba(223, 223, 223, 0.050);
+      color: rgb(255, 255, 255);
 }
 
 #review-section .review-text{
