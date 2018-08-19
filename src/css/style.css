@@ -5,6 +5,9 @@ body {
 #header-section .n-logo {
   max-width: 300px !important;
 }
+#header-section a:hover {
+  cursor: pointer;
+}
 #header-section .page-header {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.981), rgba(48, 48, 47, 0.815)), url(../../src/img/LandingBackground.jpg);
   background-position: center;
@@ -405,3 +408,5 @@ body {
     margin-top: 55px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
