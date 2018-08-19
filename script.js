@@ -22,12 +22,13 @@ function goBack(){
 
 function loadInfo(info){
       let Path = "partial_views/" + info + "Partial.html";
+      scrollToElement("#product-preview-section", 200)
       $("#product-preview-section").load(Path);
 }
 
 scrollToElement = (el, ms) => {
       let speed = (ms) ? ms : 600;
       $('html,body').animate({
-          scrollTop: $(el).offset().top
+          scrollTop: ($(el).offset().top - 50)
       }, speed);
 }
