@@ -16,11 +16,12 @@ $(window).scroll(() => {
       }
 });
 
-function goBack(){
+goBack = () => {
       $("#product-preview-section").load("partial_views/selectinformationPartial.html");
+      scrollToElement("#product-preview-section", 200)
 }
 
-function loadInfo(info){
+loadInfo = (info) => {
       let Path = "partial_views/" + info + "Partial.html";
       scrollToElement("#product-preview-section", 200)
       $("#product-preview-section").load(Path);
