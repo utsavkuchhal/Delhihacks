@@ -4,6 +4,7 @@ body {
 }
 #header-section .n-logo {
     width: 500px !important;
+    text-align: center;
     
 }
 #header-section a:hover {
