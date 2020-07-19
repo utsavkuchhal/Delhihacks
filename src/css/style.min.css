@@ -3,7 +3,7 @@ body {
     background-color: #2b2a2a !important;
 }
 #header-section .n-logo {
-    max-width: 500px !important;
+    width: 500px !important;
     
 }
 #header-section a:hover {
