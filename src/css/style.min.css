@@ -4,7 +4,7 @@ body {
 }
 #header-section .n-logo {
     max-width: 500px !important;
-    padding-left: 15px;
+    padding-left: 35px;
 }
 #header-section a:hover {
     cursor: pointer;
