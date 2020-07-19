@@ -6,6 +6,7 @@ $(document).ready(() => {
       $("#pre-order-section").load("partial_views/preorderPartial.html");
       $("#mailchimp-section").load("partial_views/mailchimpPartial.html");
       $("#footer-section").load("partial_views/footerPartial.html");
+      $("#developer-section").load("partial_views/developerPartial.html");
 });
 
 $(window).scroll(() => { 

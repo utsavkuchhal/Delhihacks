@@ -7,6 +7,10 @@ body {
     text-align: center;
     
 }
+#header-section .logo{
+    max-height: 50px;
+    max-width: 100%; 
+}
 #header-section a:hover {
     cursor: pointer;
 }
@@ -126,6 +130,12 @@ body {
     background-size: cover;
     color: rgba(255, 255, 255, 0.85);
 }
+
+#review-section .testimonial-item img {
+  width: 200px;
+  margin: 10px 0 25px 0;
+}
+
 #review-section .carousel-inner {
     background: rgba(223, 223, 223, 0.05);
     color: white;
@@ -196,6 +206,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 #mailchimp-section .n-logo {
     max-width: 300px !important;
 }
@@ -215,6 +227,11 @@ body {
 #footer-section {
     background-color: #222;
     color: rgba(255, 255, 255, 0.811);
+}
+
+#footer-section .logo{
+       max-height: 50px;
+    max-width: 35%; 
 }
 #footer-section .footer-subjects {
     position: relative;
@@ -243,6 +260,47 @@ body {
 }
 #footer-section .copyright {
     color: rgba(255, 255, 255, 0.811);
+}
+
+#developer-section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.781), rgba(48, 48, 47, 0.715)),url(../../src/img/developer.webp); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+#developer-section .carousel-inner {
+    background: rgba(223, 223, 223, 0.05);
+    color: white;
+}
+
+#developer-section .testimonial-item img {
+  width: 200px;
+  margin: 10px 0 25px 0;
+}
+#developer-section .carousel-item {
+    min-width: 1140px;
+    min-height: 540px;
+}
+#developer-section .review-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+#developer-section .review-text {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+#developer-section .arrows-1_minimal-left,
+#developer-section .arrows-1_minimal-right {
+    color: black;
+    font-size: 24px;
+}
+#developer-section .carousel-control-prev:hover,
+#developer-section .carousel-control-next:hover {
+    background: rgba(161, 157, 157, 0.03);
 }
 @media screen and (max-width: 1200px) {
     footer .footer-list li {
@@ -382,6 +440,7 @@ body {
     }
     #review-section .review-container {
         margin: 0 auto;
+        display: inline-block;
     }
     #review-section .carousel-item {
         max-width: 320px;
@@ -392,19 +451,6 @@ body {
     #review-section .img-raised {
         margin: 0 auto;
         text-align: center;
-    }
-    #review-section .review-text {
-        font-size: 14px;
-    }
-    #review-section .review-name {
-        font-size: 18px;
-    }
-    #review-section .review-rating {
-        font-size: 14px;
-    }
-    #review-section .product-review-container .card {
-        min-width: 0;
-        width: auto;
     }
 }
 @media screen and (max-width: 385px) {
