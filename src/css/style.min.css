@@ -1,8 +1,11 @@
+
 body {
     background-color: #2b2a2a !important;
 }
 #header-section .n-logo {
-    max-width: 300px !important;
+    width: 500px !important;
+    text-align: center;
+    
 }
 #header-section a:hover {
     cursor: pointer;
@@ -60,7 +63,7 @@ body {
     box-shadow: none;
 }
 #product-preview-section {
-    background: #756e41;
+    background: #363633;
     color: white;
     min-height: 670px;
     box-shadow: 0 -4px 3px rgba(50, 50, 50, 0.75) inset;
@@ -132,8 +135,9 @@ body {
     min-height: 540px;
 }
 #review-section .review-image {
-    margin-top: 65px !important;
-    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     width: 150px;
     height: 150px;
 }
